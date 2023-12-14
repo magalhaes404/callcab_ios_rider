@@ -1,13 +1,13 @@
 workflows:
   simulator-native-ios:
-    name: iOS simulator build
+    name: CallCab
     max_build_duration: 120
     instance_type: mac_mini_m1
     environment:
       vars:
         XCODE_WORKSPACE: "NewTaxi.xcworkspace"
-        XCODE_SCHEME: ""
-      xcode: 15.0
+        XCODE_SCHEME: "NewTaxi"
+      xcode: latest
       cocoapods: default
     scripts:
       - name: Install CocoaPods dependencies
