@@ -6,7 +6,7 @@ workflows:
     environment:
       vars:
         XCODE_WORKSPACE: "NewTaxi.xcworkspace"
-        XCODE_SCHEME: "Release"
+        XCODE_SCHEME: ""
       xcode: 15.0
       cocoapods: default
     scripts:
