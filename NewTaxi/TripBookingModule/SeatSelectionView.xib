@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GOTHIC.TTF">
+            <string>CenturyGothic</string>
+        </array>
+        <array key="GOTHICB.TTF">
+            <string>CenturyGothic-Bold</string>
+        </array>
+        <array key="uber-clone-mobile.ttf">
+            <string>uber-clone-mobile</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="TYQ-lh-NFT" customClass="SeatSelectionView" customModule="NewTaxi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="448" height="340"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Dx-Hi-65u">
+                    <rect key="frame" x="15" y="15" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="3Dx-Hi-65u" secondAttribute="height" multiplier="1:1" id="AJp-sh-SYf"/>
+                        <constraint firstAttribute="height" constant="45" id="Z9u-nC-3vS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="uber-clone-mobile" family="uber-clone-mobile" pointSize="17"/>
+                    <state key="normal" title="e">
+                        <color key="titleColor" name="ThemMain"/>
+                    </state>
+                    <connections>
+                        <action selector="backAction:" destination="TYQ-lh-NFT" eventType="touchUpInside" id="fHl-y1-bdZ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9G-0A-vdp">
+                    <rect key="frame" x="397.5" y="15" width="25.5" height="45"/>
+                    <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="How many seats do you need?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PvM-3M-jeH">
+                    <rect key="frame" x="15" y="69" width="418" height="46"/>
+                    <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldS-6k-tSq">
+                    <rect key="frame" x="25" y="270" width="398" height="55"/>
+                    <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="KP1-R6-7qo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="14"/>
+                    <state key="normal" title="Confirm Seats">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="confirmSeatsAction:" destination="TYQ-lh-NFT" eventType="touchUpInside" id="XmS-uU-254"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="This fare is based on out estimation this will vary on the end of the trip." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uM5-tz-OIz">
+                    <rect key="frame" x="15" y="225" width="418" height="37"/>
+                    <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="14"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="fwZ-R8-mND">
+                    <rect key="frame" x="169" y="125" width="110" height="90"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="110" id="0S5-LR-br3"/>
+                        <constraint firstAttribute="height" constant="90" id="8gf-i2-JGD"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="oEY-Xu-P8a">
+                        <size key="itemSize" width="114" height="117"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <cells/>
+                </collectionView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Nbl-nU-2gN"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fwZ-R8-mND" firstAttribute="top" secondItem="PvM-3M-jeH" secondAttribute="bottom" constant="10" id="5ZW-BX-pmQ"/>
+                <constraint firstAttribute="trailing" secondItem="H9G-0A-vdp" secondAttribute="trailing" constant="25" id="7g1-zh-ezf"/>
+                <constraint firstItem="fwZ-R8-mND" firstAttribute="centerY" secondItem="TYQ-lh-NFT" secondAttribute="centerY" id="7nZ-WE-oZz"/>
+                <constraint firstItem="fwZ-R8-mND" firstAttribute="centerX" secondItem="uM5-tz-OIz" secondAttribute="centerX" id="9n5-X0-C8P"/>
+                <constraint firstItem="ldS-6k-tSq" firstAttribute="leading" secondItem="TYQ-lh-NFT" secondAttribute="leading" constant="25" id="AVk-PY-jde"/>
+                <constraint firstAttribute="trailing" secondItem="PvM-3M-jeH" secondAttribute="trailing" constant="15" id="J1k-rU-qW2"/>
+                <constraint firstItem="3Dx-Hi-65u" firstAttribute="leading" secondItem="TYQ-lh-NFT" secondAttribute="leading" constant="15" id="MuI-jo-omN"/>
+                <constraint firstItem="ldS-6k-tSq" firstAttribute="top" secondItem="uM5-tz-OIz" secondAttribute="bottom" constant="8" id="Of1-1M-MpB"/>
+                <constraint firstItem="H9G-0A-vdp" firstAttribute="top" secondItem="TYQ-lh-NFT" secondAttribute="top" constant="15" id="Owz-wF-oUA"/>
+                <constraint firstItem="3Dx-Hi-65u" firstAttribute="top" secondItem="TYQ-lh-NFT" secondAttribute="top" constant="15" id="POc-AV-YX8"/>
+                <constraint firstItem="PvM-3M-jeH" firstAttribute="leading" secondItem="TYQ-lh-NFT" secondAttribute="leading" constant="15" id="Qmn-RK-EQA"/>
+                <constraint firstItem="PvM-3M-jeH" firstAttribute="top" secondItem="3Dx-Hi-65u" secondAttribute="bottom" constant="9" id="SI6-7m-UGJ"/>
+                <constraint firstItem="fwZ-R8-mND" firstAttribute="centerY" secondItem="Nbl-nU-2gN" secondAttribute="centerY" id="VWL-ie-1yI"/>
+                <constraint firstAttribute="bottom" secondItem="ldS-6k-tSq" secondAttribute="bottom" constant="15" id="aPu-8g-JqA"/>
+                <constraint firstAttribute="trailing" secondItem="uM5-tz-OIz" secondAttribute="trailing" constant="15" id="fBw-L4-6ud"/>
+                <constraint firstAttribute="trailing" secondItem="ldS-6k-tSq" secondAttribute="trailing" constant="25" id="ii2-zS-XNk"/>
+                <constraint firstItem="H9G-0A-vdp" firstAttribute="centerY" secondItem="3Dx-Hi-65u" secondAttribute="centerY" id="jo6-r2-LBr"/>
+                <constraint firstItem="uM5-tz-OIz" firstAttribute="leading" secondItem="TYQ-lh-NFT" secondAttribute="leading" constant="15" id="kns-j5-ius"/>
+                <constraint firstItem="uM5-tz-OIz" firstAttribute="top" secondItem="fwZ-R8-mND" secondAttribute="bottom" constant="10" id="tJJ-1Y-2uI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="VWL-ie-1yI"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="acceptSeatBtn" destination="ldS-6k-tSq" id="i2A-uC-5wJ"/>
+                <outlet property="backBtn" destination="3Dx-Hi-65u" id="a1f-Cu-OYN"/>
+                <outlet property="messageLbl" destination="uM5-tz-OIz" id="9B8-0p-vbc"/>
+                <outlet property="priceLbl" destination="H9G-0A-vdp" id="9d4-Fx-b0k"/>
+                <outlet property="seatCollectionView" destination="fwZ-R8-mND" id="LAe-3b-Mb8"/>
+                <outlet property="titleLbl" destination="PvM-3M-jeH" id="mfC-f7-aK1"/>
+            </connections>
+            <point key="canvasLocation" x="156.52173913043478" y="167.41071428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="ThemMain">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

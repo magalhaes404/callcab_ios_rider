@@ -1,0 +1,129 @@
+
+/* Class = "UILabel"; text = "Enter your promo/gift code"; ObjectID = "0i4-aP-qmt"; */
+"0i4-aP-qmt.text" = "Enter your promo/gift code";
+
+/* Class = "UILabel"; text = "Payment"; ObjectID = "0oh-4f-kl4"; */
+"0oh-4f-kl4.text" = "Payment";
+
+/* Class = "UIButton"; normalTitle = "MOBILE"; ObjectID = "1de-EB-OLN"; */
+"1de-EB-OLN.normalTitle" = "MOBILE";
+
+/* Class = "UILabel"; text = "Promotions"; ObjectID = "2sN-i5-Nu9"; */
+"2sN-i5-Nu9.text" = "Promotions";
+
+/* Class = "UILabel"; text = "Select a Country"; ObjectID = "4i2-uk-Sh6"; */
+"4i2-uk-Sh6.text" = "Select a Country";
+
+/* Class = "UILabel"; text = "How would you like to reset your password?"; ObjectID = "7n2-jV-ikF"; */
+"7n2-jV-ikF.text" = "How would you like to reset your password?";
+
+/* Class = "UILabel"; text = "p"; ObjectID = "Dgt-W9-cac"; */
+"Dgt-W9-cac.text" = "p";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "GKL-R7-6ev"; */
+"GKL-R7-6ev.normalTitle" = "SAVE";
+
+/* Class = "UIButton"; normalTitle = "Q"; ObjectID = "GZk-df-e6Q"; */
+"GZk-df-e6Q.normalTitle" = "Q";
+
+/* Class = "UIButton"; normalTitle = "ADD"; ObjectID = "JXJ-vK-wta"; */
+"JXJ-vK-wta.normalTitle" = "ADD";
+
+/* Class = "UILabel"; text = "RESET PASSWORD"; ObjectID = "KQ9-VM-Rai"; */
+"KQ9-VM-Rai.text" = "RESET PASSWORD";
+
+/* Class = "UITextField"; placeholder = "Enter your mobile number"; ObjectID = "NJ6-SI-Qo8"; */
+"NJ6-SI-Qo8.placeholder" = "Enter your mobile number";
+
+/* Class = "UIButton"; normalTitle = "e"; ObjectID = "P3P-UA-zh6"; */
+"P3P-UA-zh6.normalTitle" = "e";
+
+/* Class = "UITextField"; placeholder = "PayPal Email id"; ObjectID = "Q7Z-Hm-kuJ"; */
+"Q7Z-Hm-kuJ.placeholder" = "PayPal Email id";
+
+/* Class = "UITextField"; placeholder = "CONFIRM PASSWORD"; ObjectID = "Qsr-cI-6Fd"; */
+"Qsr-cI-6Fd.placeholder" = "CONFIRM PASSWORD";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "RE1-an-x8t"; */
+"RE1-an-x8t.normalTitle" = "CANCEL";
+
+/* Class = "UILabel"; text = "CASH"; ObjectID = "Ruh-eF-K2p"; */
+"Ruh-eF-K2p.text" = "CASH";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "SzR-Oa-qY2"; */
+"SzR-Oa-qY2.text" = "3";
+
+/* Class = "UIButton"; normalTitle = "e"; ObjectID = "Uaz-tx-Gzk"; */
+"Uaz-tx-Gzk.normalTitle" = "e";
+
+/* Class = "UITextField"; placeholder = "PASSWORD"; ObjectID = "VWT-Qf-J6T"; */
+"VWT-Qf-J6T.placeholder" = "PASSWORD";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "W5t-fK-EGk"; */
+"W5t-fK-EGk.text" = "1";
+
+/* Class = "UILabel"; text = "30-11-2017"; ObjectID = "Y5L-jK-kj7"; */
+"Y5L-jK-kj7.text" = "30-11-2017";
+
+/* Class = "UILabel"; text = "Payment"; ObjectID = "aSE-Eo-sB6"; */
+"aSE-Eo-sB6.text" = "Payment";
+
+/* Class = "UIButton"; normalTitle = "EMAIL"; ObjectID = "bEX-jd-ADT"; */
+"bEX-jd-ADT.normalTitle" = "EMAIL";
+
+/* Class = "UILabel"; text = "Contacting cars near you..."; ObjectID = "cYu-5Z-BGh"; */
+"cYu-5Z-BGh.text" = "Contacting cars near you...";
+
+/* Class = "UIButton"; normalTitle = "e"; ObjectID = "dnm-fe-UNi"; */
+"dnm-fe-UNi.normalTitle" = "e";
+
+/* Class = "UILabel"; text = " Promotions"; ObjectID = "e4T-bZ-wzp"; */
+"e4T-bZ-wzp.text" = " Promotions";
+
+/* Class = "UIButton"; normalTitle = "TRY AGAIN"; ObjectID = "gi7-QP-ShV"; */
+"gi7-QP-ShV.normalTitle" = "TRY AGAIN";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "hkL-ef-PMV"; */
+"hkL-ef-PMV.normalTitle" = "CANCEL";
+
+/* Class = "UILabel"; text = "Free trip up to $55.00 from mouni123"; ObjectID = "i41-oh-WVy"; */
+"i41-oh-WVy.text" = "Free trip up to $55.00 from mouni123";
+
+/* Class = "UIButton"; normalTitle = "e"; ObjectID = "jRu-s8-sJz"; */
+"jRu-s8-sJz.normalTitle" = "e";
+
+/* Class = "UIButton"; normalTitle = "e"; ObjectID = "kjJ-pM-CYZ"; */
+"kjJ-pM-CYZ.normalTitle" = "e";
+
+/* Class = "UILabel"; text = "p"; ObjectID = "kkk-qg-8YA"; */
+"kkk-qg-8YA.text" = "p";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "m5g-bO-iH5"; */
+"m5g-bO-iH5.text" = "Label";
+
+/* Class = "UILabel"; text = "$55.00 OFF"; ObjectID = "rVt-Nb-1e6"; */
+"rVt-Nb-1e6.text" = "$55.00 OFF";
+
+/* Class = "UILabel"; text = "+91"; ObjectID = "sPy-Tq-esb"; */
+"sPy-Tq-esb.text" = "+91";
+
+/* Class = "UIButton"; normalTitle = "I"; ObjectID = "uID-UO-t92"; */
+"uID-UO-t92.normalTitle" = "I";
+
+/* Class = "UIButton"; normalTitle = "CLOSE"; ObjectID = "uak-xK-SuH"; */
+"uak-xK-SuH.normalTitle" = "CLOSE";
+
+/* Class = "UIButton"; normalTitle = "   Or connect using a social account"; ObjectID = "wUB-8v-B7d"; */
+"wUB-8v-B7d.normalTitle" = "   Or connect using a social account";
+
+/* Class = "UILabel"; text = "     Add Promo/Gift code"; ObjectID = "wXU-ft-6w1"; */
+"wXU-ft-6w1.text" = "     Add Promo/Gift code";
+
+/* Class = "UILabel"; text = "To add a new payout. Create a email for your NewTaxi account."; ObjectID = "wdh-Tp-CL1"; */
+"wdh-Tp-CL1.text" = "To add a new payout. Create a email for your NewTaxi account.";
+
+/* Class = "UILabel"; text = "Sorry, no rides available now"; ObjectID = "xHp-oB-4Xz"; */
+"xHp-oB-4Xz.text" = "Sorry, no rides available now";
+
+/* Class = "UILabel"; text = "Add Payout"; ObjectID = "yzW-yj-hKG"; */
+"yzW-yj-hKG.text" = "Add Payout";

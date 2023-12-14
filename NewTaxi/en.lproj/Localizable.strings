@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  NewTaxi
+  Created by Seentechs on 13/07/18.
+  Copyright © 2021 Seen Technologies. All rights reserved.
+*/
+
+
+SIN_INCOMING_CALL = "Incoming call";
+SIN_INCOMING_CALL_DISPLAY_NAME = "Incoming call from %@";
+SIN_INCOMING_IM = "Incoming message";
+SIN_INCOMING_IM_DISPLAY_NAME = "Incoming message from %@";
+SIN_INCOMING_VIDEO_CALL = "Incoming video call";
+SIN_INCOMING_VIDEO_CALL_DISPLAY_NAME = "Incoming video call from %@";
+SIN_CANCEL_CALL = "Call Terminated";

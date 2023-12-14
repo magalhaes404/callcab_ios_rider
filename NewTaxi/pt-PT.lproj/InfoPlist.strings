@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  NewTaxi
+
+  Created by Seentechs on 28/02/19.
+  Copyright © 2021 Seen Technologies. All rights reserved.
+*/
+"NSLocationWhenInUseUsageDescription" = "NewTaxi rastrea sua posição para calcular a distância de viagem.";
+"NSLocationAlwaysUsageDescription" = "NewTaxi rastrea sua posição para calcular a distância de viagem.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "NewTaxi rastrea sua posição para calcular a distância de viagem.";
+"NSLocationUsageDescription" = "NewTaxi rastrea sua posição para calcular a distância de viagem.";
+"NSCameraUsageDescription" = "NewTaxi para habilitar o acesso à câmera para o driver exibido na foto.";
+"NSPhotoLibraryUsageDescription" = "NewTaxi para habilitar o acesso à câmera para o driver exibido na foto.";
+"NSMicrophoneUsageDescription" = "NewTaxi usa para entrar em contato com o motorista de viagem.";
+

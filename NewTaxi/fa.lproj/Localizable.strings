@@ -1,0 +1,334 @@
+/* 
+  Localizable.strings
+  NewTaxi
+
+  Created by Seentechs on 13/07/18.
+  Copyright © 2021 Seen Technologies. All rights reserved.
+*/
+
+
+"Resend Code" = "دوباره کود را روان کنید";
+"Payment" = "تادیه تی تاکسی";
+"My Trips" = "سفرهای من";
+"Wallet" = "بکسک جیبی";
+"Settings" = "تنظیمات";
+"Customer Support" = "پشتیبانی مشتری";
+"Add Home Location" = "آدرس خانه را اضافه نمائید";
+"Add Work Location" = "آدرس کار تان را اضافه نمائید";
+"Set pin location" = "تنظیم محل با پین";
+"USE WALLET" = "استفاده از بکسک جیبی";
+"OFF" = "افغانی تخفیف";
+"Free trip up to" = "سفر رایگان الی";
+"Your Wallet amount is" = "مقدار پول بکسک جیبی شما است";
+"Add Home" = "اضافه نمودن خانه";
+"Add Work" = "اضافه نمودن وظیفه";
+"Favorites" = "دلخواها";
+"Currency" = "واحد پولی";
+"Enter Your Location" = "مکان خود را وارد کنید";
+"Enter home address" = "آدرس خانه را وارد کنید";
+"Enter work address" = "آدرس وظیفه را وارد کنید";
+"Home" = "خانه";
+"Work" = "وظیفه";
+"Promo Applied" = "ارتقاع تعین شده";
+"CASH" = "نقدا";
+"PAYPAL" = "پرداخت پال";
+"No cars available in your area." = "اتومبیل شما در منطقه شما موجود نیست";
+"No Cabs Available" = "بدون کابین موجود است";
+"No cabs" = "هیچ موتر در نزدیکی نیست";
+"min" = "دقایق";
+"mins" = "دقایق";
+"Min" = "دقایق";
+"Mins" = "دقایق";
+"REQUEST" = "تقاضا";
+"No Cabs Available" = "بدون کابین موجود است";
+"The Pick up and drop location are same..." = "محل برداشتن و رها کردن همانند است ...";
+"Contacting" = "تماس گرفتن";
+"near you..." = "نزدیک شما";
+"Welcome back, sign in to continue" = "دوباره خوش آمدید، داخل شوید و ادامه دهید";
+"Please enter your password" = "لطفاً رمز عبور تان را وارد نمائید";
+"Enter the email address you used to register" = "ایمیل آدرس تانرا وارد نمائید که میخواهید راجستر نمائید";
+"Password Mismatch" = "رمز مشابه نیست مچ نمیکند ویا با هم نمیخاند";
+"Please enable push notifications from " = "لطفاً دکمه اطلاعیه T-Taxi را فعال نمائید";
+"when prompted" = "هنگامی که مطرح شد";
+"Your OTP Code doesn't match" = " کد شما مطابقت نداردOTP";
+"Current Location" = "موقعیت فعلی";
+"You have no trips" = "شما هیچ سفر ندارید";
+"Trip ID:" = ":آی دی سفر";
+"Base Fare" = "کرایه پایه";
+"Distance Fare" = "کرایه تاکسی";
+"Access Fee" = "فیس دسترسی";
+"Time Fare" = "کرایه تاکسی";
+"Total Trip Fare" = "وقت مجموعی سفر";
+"Payable Amount" = "پول قابل پرداخت";
+"Wallet Amount" = "مقدار پول جیب";
+"Promo Amount" = "مقدار پول ارتقاع شده";
+"Paid Amount" = "پول پرداخت شده";
+"PROCEED" = "اجرا شد";
+"Pay Amount" = "مبلغ پرداختی";
+"WAITING FOR DRIVER CONFIRMATION" = "انتظار برای تائیدی درایور";
+"PAY" = "پرداخت نمودن";
+"Internal server error, please try again" = "خطای سرور داخلی، لطفا دوباره امتحان کنید";
+"No internet connection." = "بدون اتصال به اینترنت";
+"Scheduled" = "برنامه ریزی شده";
+"Begin trip" =  "اغاز سفر";
+"End trip" = "ختم سفر";
+"Rating" = "امتیاز";
+"Cancelled" = "لغو شد";
+"Completed" = "تکمیل گردید";
+"Payment" = "پرداخت";
+"Your trip with" = "سفر شما با";
+"My driver and I couldn’t connect" = "راننده من و من نمیتوانستم وصل کنم";
+"My pick up location was incorrect" = "محل انتخاب من نادرست بود";
+"My driver cancelled" = "راننده من لغو شد";
+"The ETA was too long" = "ETA خیلی طول کشید";
+"The ETA was too short" = "ETA خیلی کوتاه بود";
+"My driver asked me to cancel" = "راننده من از من خواست که لغو شود";
+"Those credentials don't look right. Please try again" = "این اعتبارات درست نیست. لطفا دوباره تلاش کنید";
+"Mobile Number Exist" = "شماره تلفن موجود است";
+"Pending" = "در انتظار";
+"Payment Methods" = "روش های پرداخت";
+"Promotions" = "تبلیغات";
+"Cash" = "نقدی";
+"paypal" = "پی پال";
+"Add Promo/Gift code" = "افزودن تبلیغ / کد هدیه";
+"Please enter the promo code" = "لطفا کد تبلیغاتی را وارد کنید";
+"The amount field is required" = "فیلد مقدار مورد نیاز است";
+"Total Fare" = "کل هزینه";
+"Delete" = "حذف";
+"Please enter valid email id" = "لطفا نام ایمیل معتبر را وارد کنید";
+"Please enter email id" = "لطفا آدرس ایمیل را وارد کنید";
+"Please enter your first name" = "لطفا نام خود را وارد کنید";
+"Please enter your last name" = "لطفا نام خانوادگی خود را وارد کنید";
+"Those credentials don't look right. Please try again" = "این اعتبارات درست نیست. لطفا دوباره تلاش کنید";
+"Cancel" = "لغو";
+"By continuing, I confirm that i have read and agree to the Terms & Conditions and Privacy Policy." = "با ادامه، تأیید میکنم که شرایط و ضوابط و خط مشی رازداری را خوانده ام و موافقم.";
+"Terms & Conditions" = "شرایط و ضوابط";
+"Privacy Policy" = "خط مشی";
+
+
+
+
+
+
+//AlerView
+"Success" = "موفقیت";
+"Success!!!" = "!!!موفقیت";
+"Payment Completed successfully" = "پراخت پول موفقانه تکمیل شد";
+"OK" = "خوب";
+"Error" = "خطا";
+"Message!!!" = "!!!پیام";
+"Trip cancelled by driver" = "سفر شما توسط درایور لغو شد";
+"Driver arrived" = "راننده وارد شد";
+"Trip Started" = "سفر آغاز شد";
+"Please enable Push Notification in settings for continue to login." = "لطفا تنظیمات فشار را در تنظیمات فعال کنید تا برای ورود به سیستم ادامه دهید";
+"Please give rating" = "لطفا ارزیابی کنید";
+"Payment Paid Successfully" = "پرداخت پرداخت شده به صورت موفقیت آمیز";
+"Device has no camera" = "دستگاه دارای دوربین نیست";
+"Please give authorization for photos in settings" = "لطفا برای عکس در تنظیمات مجوز بگیرید";
+"Contact was already added" = "تماس قبلا اضافه شده است";
+
+
+
+///
+
+
+
+
+
+
+
+
+
+"km" = "کیلومتر";
+"Paid Amount" = "پول پرداخت شده";
+"Password" = "رمز";
+"Please enter valid email id" = "لطفا یک ایمیل آدرس درست را وارد نمائید";
+"Please enter email id" = "لطفا آدرس ایمیل را وارد کنید";
+"Minutes to arrive" = "دقیقه برای رسیدن";
+"Cancel reason" = "علت لغو کردن";
+"Additional topics" = "مقاله های اضافی";
+"Trips and Fare Review" = "مرور کرایه و سفر ها";
+"Account and Payment Options" = "آپشن های اکونت و پرداخت";
+"A Guide to " = "یک رهنمایی برای ت تکسی";
+"Signing Up" = "راجستر نمائید";
+"More" = "دیگر";
+"Accessibility" = "قابل دسترسی";
+"Sending Alert" = "ارسال هشدار";
+"Alert Sent" = "هشدار ارسال شده";
+"Continue to send alert?" = "ادامه هشدار را ارسال کنید؟";
+"Continue" = "ادامه دهید";
+"Schedule" = "تقسیم اوقات سواری";
+"Actual estimate to be provided prior to pickup. Fares may vary due to traffic, weather and other factors." = "برآورد واقعی به قبل از وانت فراهم شود. فارس ممکن است به دلیل ترافیک، آب و هوا و عوامل دیگر متفاوت است.";
+"doesn't guarantee a driver will accept your ride request." = "تضمین نمی کند یک راننده درخواست سوار خود را بپذیرید.";
+"Get moving with"  = "احصل على التحرك مع";
+"Emergency Contacts" = "تماس اضطراری";
+"Drive with" = "رانندگی با که";
+"Please try again" = "لطفا دوباره امتحان کنید";
+"Upload failed. Please try again" = "آپلود نشد لطفا دوباره امتحان کنید";
+
+"Please enter the card details" = "لطفا جزئیات کارت را وارد کنید";
+"Add Credit or Debit Card" = "کارت اعتباری یا بدهکاری را اضافه کنید";
+"Enter the amount" = "مقدار را وارد کنید";
+"ADD MONEY TO THE WALLET" = "اضافه کردن پول به WALLET";
+"CHANGE" = "تغییر دادن";
+"ADD AMOUNT" = "اضافه کردن AMOUNT";
+"Type a message..." = "یک پیام را تایپ کنید ...";
+"No messages, yet." = "هیچ پیغامی وجود ندارد";
+"Driver" = "راننده";
+"Invalid data" = "داده های نامعتبر";
+
+"PEAK PRICE" = "قیمت PEAK";
+"PEAK TIME PRICING" = "زمان قیمت PEAK";
+"Demand is off the charts! Fares have increased to get more UBER on the road." = "تقاضا خاموش است نمودار! Fares افزایش یافته است تا UBER بیشتری در جاده ها به دست آورد.";
+"THE NORMAL FARE" = " فرار معمولی";
+"MINIMUM FARE" = "حداقل امتیاز";
+" / MIN" = " / MIN";
+" / KM" = " / KM";
+"I ACCEPT HIGHER FARE" = "من بالاخره پذیرفتم";
+"I WILL TRY LATER" = "من تلاش میکنم بعدا";
+"Edit Credit or Debit Card" = "ویرایش اعتبار یا کارت اعتباری";
+"Update Credit or Debit Card" = "کارت اعتباری یا کارت اعتباری را به روز کنید";
+"Change Credit or Debit Card" = "تغییر کارت اعتباری یا بدهکاری";
+"SIGN IN" = "ورود به سیستم";
+"REGISTER" = "ثبت نام";
+
+"Register your information" = "اطلاعات خود را ثبت کنید";
+"Payable Amount" = "مبلغ قابل پرداخت";
+
+"Skip" = "پرش";
+"Something went wrong!" = "چیزی اشتباه رفت!";
+
+"Dial" = "شماره گیری کنید";
+"Contact admin for manual booking" = "برای رزرو کتابچه راهنمای کاربر تماس بگیرید";
+"Contact admin" = "با مدیر تماس بگیرید";
+"Call" = "زنگ زدن";
+"No Contact Found" = "تماس پیدا نشد";
+"Manual Booking" = "رزرو دستی";
+"Yes" = "بله";
+"No" = "نه";
+"OR" = "یا";
+
+"Mobile Verification" =  "تأیید موبایل";
+"Please enter your mobile number" = "لطفا شماره موبایل خود را وارد کنید";
+"LOGIN" = "ورود به سیستم";
+"Enter OTP" = "وارد OTP شوید";
+"We have sent you access code via SMS for mobile number verification" = "ما برای تأیید شماره تلفن همراه شما را از طریق پیام کوتاه برای شما ارسال کرده ایم";
+"Din't Receive the OTP?" =  "OTP را دریافت نمی کنید؟";
+"Resend OTP" = "ارسال مجدد OTP";
+"You can send OTP again in" = "می توانید دوباره OTP را ارسال کنید";
+"Forgot Password?" = "رمز عبور را فراموش کرده اید؟";
+"Your OTP is" = "OTP شما است";
+
+
+//referrals
+"Referral" = "معرف";
+"Referral (Optional)" = "ارجاع (اختیاری)";
+"Get upto" = "بلند شوید";
+"for every friend who rides with" = "برای هر دوستی که با او سوار می شود";
+"SignUp & Get Paid For Every Referral Sign-up & Much More Bonus Awaits!" = "برای ثبت نام در هر مراجعه و ثبت نام کنید و پاداش بیشتری دریافت کنید!";
+"Referral Copied to Clip Board !" = "ارجاع کپی شده در کلیپ بورد!";
+" Use my Referral " = "از مراجعه به من استفاده کنید";
+". Start Your Journey on NewTaxi from here " = ". سفر خود را از اینجا شروع کنید";
+"No Referrals Yet" = "هنوز هیچ مراجعه کننده ای نیست";
+"FRIENDS - INCOMPLETE" = "دوستان - نامحدود";
+"FRIENDS - COMPLETED" = "دوستان - تکمیل شده است";
+"days left | Need to Complete" = "روز باقی مانده | نیاز به تکمیل";
+"YOUR REFERRAL CODE" = "کد مرجع شما";
+"trips" = "سفر";
+"Referral Expired" = "ارجاع منقضی شد";
+"SHARE MY CODE" = "کد من را به اشتراک بگذارید";
+
+"/min Waiting Fee applies after" = "/ دقیقه انتظار هزینه پس از اعمال";
+"min of arrival till trip starts." = "دقیقه ورود تا سفر شروع می شود.";
+"Getting Cabs" = "گرفتن کابین";
+"Rate your ride" = "نرخ سواری خود را ارزیابی کنید";
+"Smooth or Sloopy? Rate your ride" = "صاف یا سلولی؟ نرخ سواری خود را ارزیابی کنید";
+"write your comment" = "نظر خود را بنویسید";
+"Add" = "اضافه کردن";
+"Add Tip" = "نکته را اضافه کنید";
+"to Driver" = "به راننده";
+"SUBMIT" = "ارسال";
+"SET TIP" = "نکته را تنظیم کنید";
+"Enter tip amount" = "مقدار نوک را وارد کنید";
+"Tip" = "نکته";
+"Pick and drop should be in same country..." = "انتخاب و رها کردن باید در همان کشور باشد ...";
+"Please enter valid card details" = "لطفاً جزئیات کارت معتبر را وارد کنید";
+"Where to?"="به کجا؟";
+
+"Let's make travel safer"="سفر را بیایید امن تر";
+"Alert your dear ones in case of an emergency. Add them to your emergency contact"="هشدار عزیزان خود را در موارد اضطراری. اضافه کردن آنها را به تماس های اضطراری خود را";
+"You can add upto 5 contacts"="شما می توانید 5 اطلاعات تماس اضافه کردن تا";
+"Remove any contact to add another"="حذف هر گونه تماس دیگری را اضافه کنید";
+"ADD CONTACTS"="افزودن شماره";
+"Emergency Contacts"="تماس اضطراری";
+
+"First Name"="نام کوچک";
+"Last Name"="نام خانوادگی";
+"Phone Number"="شماره تلفن";
+"Email"="پست الکترونیک";
+"SAVE"="صرفه جویی";
+"Edit Account"="حساب ویرایش";
+
+"Select a photo"="یک عکس انتخاب کنید";
+"TAKE PHOTO"="عکس گرفتن";
+"CHOOSE FROM LIBRARY"="از کتابخانه انتخاب کن";
+"CANCEL"="لغو";
+"You have no trips"="شما هیچ سفرهای";
+"Your Trips"="سفرهای خود را";
+"Past"="گذشته";
+"Upcoming"="نزدیک";
+"Trip Details"="سفر اطلاعات";
+"En Route"="در راه";
+"Contact"="مخاطب";
+"Cancel"="لغو کردن";
+"Your current trip"="سفر در حال حاضر شما";
+"USE IN CASE OF EMERGENCY"="استفاده در موارد اضطراری";
+"Alert your Emergency contacts"="هشدار تماس های اضطراری خود";
+"NewTaxi collects location data during an active ride from your device including when the app is in the background. This data is used to ensure that NewTaxi users have a safe and smooth ride experiance"="که NewTaxi جمع آوری داده های مکان در طول سوار فعال از دستگاه خود را از جمله زمانی که برنامه در پس زمینه است. این داده ها استفاده می شود برای اطمینان حاصل شود که کاربران که NewTaxi یک تجربه سوار امن و صاف";
+"CLOSE"="بستن";
+"CALL"="زنگ زدن";
+"MESSAGE"="پیام";
+"Contacts"="مخاطب";
+"Cancel Your Ride"="لغو سوار خود را";
+"Cancel reason"="لغو دلیل";
+"CANCEL TRIP"="لغو سفر";
+
+"Select a photo"="写真を選択";
+"TAKE PHOTO"="写真を撮る";
+"CHOOSE FROM LIBRARY"="ライブラリから選択";
+"CANCEL"="キャンセル";
+"You have no trips"="あなたは何の旅行を持っていません";
+"Your Trips"="あなたの旅行";
+"Past"="過去";
+"Upcoming"="来たる";
+"Trip Details"="トリップ詳細";
+"En Route"="途中";
+"Contact"="接触";
+"Cancel"="キャンセル";
+"Your current trip"="あなたの現在の旅";
+"USE IN CASE OF EMERGENCY"="緊急の場合に使用";
+"Alert your Emergency contacts"="あなたの緊急連絡先を知らせます";
+"NewTaxi collects location data during an active ride from your device including when the app is in the background. This data is used to ensure that NewTaxi users have a safe and smooth ride experiance"="NewTaxiは、アプリがバックグラウンドで動作しているときなど、お使いのデバイスからのアクティブな走行中の位置データを収集します。このデータは、NewTaxiユーザーが安全で滑らかな乗り心地の実務経験を持っていることを確実にするために使用されます";
+"CLOSE"="閉じる";
+"CALL"="コール";
+"MESSAGE"="メッセージ";
+"Contacts"="コンタクト";
+"Cancel Your Ride"="あなたのライドをキャンセル";
+"Cancel reason"="理由をキャンセル";
+"CANCEL TRIP"="TRIPをキャンセル";
+"New Version Available"="نسخه جدید در دسترس است";
+"Please update our app to enjoy the latest features!"="لطفا برنامه ما به روز رسانی به لذت بردن از آخرین ویژگی های!";
+"Visit App store"="فروشگاه سایت بازدید نرم افزار";
+
+"day left | Need to Complete"="روز به سمت چپ | نیاز به تکمیل";
+"trip"="سفر";
+"Earned :"="به دست آورده :";
+"Pay Statement"="بیانیه پرداخت";
+
+SIN_INCOMING_CALL = "تماس ورودی";
+SIN_INCOMING_CALL_DISPLAY_NAME = "تماس ورودی از٪ @";
+SIN_INCOMING_IM = "پیام های دریافتی";
+SIN_INCOMING_IM_DISPLAY_NAME = "پیام های دریافتی از٪ @";
+SIN_INCOMING_VIDEO_CALL = "تماس تصویری ورودی";
+SIN_INCOMING_VIDEO_CALL_DISPLAY_NAME = "تماس ویدیویی ورودی از٪ @";
+SIN_CANCEL_CALL = "تماس تلفنی";

@@ -1,0 +1,307 @@
+/* 
+  Localizable.strings
+  NewTaxi
+  Created by Seentechs on 13/07/18.
+  Copyright © 2021 Seen Technologies. All rights reserved.
+*/
+
+"Resend Code" = "Reenviar codigo";
+"Payment" = "Pago";
+"My Trips" = "Mis viajes";
+"Wallet" = "Billetera";
+"Settings" = "Configuración";
+"Customer Support" = "Atención al cliente";
+"Add Home Location" = "Añadir Home Location";
+"Add Work Location" = "Añadir Lugar de trabajo";
+"Set pin location" = "Establecer la ubicación de pines";
+"USE WALLET" = "Uso del monedero";
+"OFF" = "APAGADO";
+"Free trip up to" = "Viaje gratis hasta";
+"Your Wallet amount is" = "La cantidad de su billetera es";
+"Add Home" = "Añadir a casa";
+"Add Work" = "Agregar trabajo";
+"Favorites" = "Favoritos";
+"Currency" = "Moneda";
+"Enter Your Location" = "Ingresa tu ubicación";
+"Enter home address" = "Introducir dirección de casa";
+"Enter work address" = "Introduzca la dirección de obra";
+"Home" = "Casa";
+"Work" = "Trabajo";
+"Promo Applied" = "Promo Aplicada";
+"CASH" = "EFECTIVO";
+"PAYPAL" = "PAYPAL";
+"No cars available in your area." = "No hay vehículos encontrados";
+"No Cabs Available" = "No hay taxis disponibles";
+"No cabs" = "No hay taxis";
+"min" = "Min";
+"mins" = "Mins";
+"Min" = "Min";
+"Mins" = "Mins";
+"REQUEST" = "SOLICITUD";
+"No Cabs Available" = "No hay vehículos encontrados";
+"The Pick up and drop location are same..." = "La Recogida y entrega de ubicación son los mismos ...";
+"Contacting" = "Poner en contacto";
+"near you..." = "cerca de usted...";
+"Welcome back, sign in to continue" = "Bienvenido de nuevo, inicia sesión para continuar";
+"Please enter your password" = "Por favor, introduzca su contraseña";
+"Enter the email address you used to register" = "Introduzca la dirección de correo electrónico que utilizó para registrarse";
+"Password Mismatch" = "Contraseña no coincide";
+"Please enable push notifications from " = "Por favor, activa las notificaciones push desde";
+"when prompted" = "Cuando se le solicite";
+"Your OTP Code doesn't match" = "Su Código OTP no coincide";
+"Current Location" = "Ubicación actual";
+"You have no trips" = "No tiene viajes";
+"Trip ID:" = "Id viaje:";
+"Base Fare" = "Tarifa base";
+"Distance Fare" = "Distancia tarifa";
+"Access Fee" = "Tarifa de acceso";
+"Time Fare" = "Fare Tiempo";
+"Total Trip Fare" = "Tarifa total de viaje";
+"Payable Amount" = "Cantidad a pagar";
+"Wallet Amount" = "Monedero Cantidad";
+"Promo Amount" = "Promo Cantidad";
+"Paid Amount" = "Monto de pago";
+"PROCEED" = "PROCEDER";
+"Pay Amount" = "Pagar la cantidad";
+"WAITING FOR DRIVER CONFIRMATION" = "Esperando la confirmación del conductor";
+"PAY" = "PAGA";
+"Internal server error, please try again" = "Error interno del servidor, por favor intente de nuevo";
+"No internet connection." = "Sin conexión a Internet.";
+"Scheduled" = "Programado";
+"Begin trip" = "Comenzar viaje";
+"End trip" = "Viaje de fin";
+"Rating" = "Clasificación";
+"Cancelled" = "Cancelado";
+"Completed" = "Terminado";
+"Payment" = "Pago";
+"Your trip with" = "Su viaje con";
+"My driver and I couldn’t connect" = "Mi conductor y no pude conectar";
+"My pick up location was incorrect" = "Mi lugar de recogida era incorrecta";
+"My driver cancelled" = "Mi conductor cancelado";
+"The ETA was too long" = "La ETA era demasiado largo";
+"The ETA was too short" = "La ETA era demasiado corto";
+"My driver asked me to cancel" = "Mi conductor me pidió que cancelar";
+"Those credentials don't look right. Please try again" = "Esas credenciales no se ven bien. Por favor, intente de nuevo";
+"Mobile Number Exist" = "Número Móvil existe";
+"Pending" = "Pendiente";
+"Payment Methods" = "Métodos de pago";
+"Promotions" = "Promociones";
+"Cash" = "Efectivo";
+"paypal" = "paypal";
+"Add Promo/Gift code" = "Añadir Promo / código de regalo";
+"Please enter the promo code" = "Por favor ingrese el código de promoción";
+"The amount field is required" = "El campo de la cantidad es obligatorio.";
+"Total Fare" = "Tarifa total";
+"Delete" = "Borrar";
+"Please enter valid email id" = "Por favor ingrese una identificación de correo electrónico válida";
+"Please enter email id" = "Por favor ingrese su ID de correo electrónico";
+"Please enter your first name" = "Por favor, introduzca su nombre de pila";
+"Please enter your last name" = "Por favor ingrese su apellido";
+"Actual estimate to be provided prior to pickup. Fares may vary due to traffic, weather and other factors." = "Estimación real que se proporcionará antes de la recogida. Las tarifas pueden variar debido al tráfico, el clima y otros factores.";
+"doesn't guarantee a driver will accept your ride request." = "no garantiza que un conductor acepte su solicitud de viaje.";
+"Those credentials don't look right. Please try again" = "Esas credenciales no se ven bien. Inténtalo de nuevo";
+"Cancel" = "Cancelar";
+"By continuing, I confirm that i have read and agree to the Terms & Conditions and Privacy Policy." = "Al continuar, confirmo que he leído y acepto los Términos y condiciones y la Política de privacidad.";
+"Terms & Conditions" = "Términos y condiciones";
+"Privacy Policy" = "Política de privacidad";
+
+
+
+//AlerView
+"Success" = "Éxito";
+"Success!!!" = "¡¡¡Éxito!!!";
+"Payment Completed successfully" = "El pago realizado con éxito";
+"OK" = "DE ACUERDO";
+"Error" = "Error";
+"Message!!!" = "¡¡¡Mensaje!!!";
+"Trip cancelled by driver" = "Viaje cancelado por el conductor";
+"Driver arrived" = "El conductor llegó";
+"Trip Started" = "Viaje comenzó";
+"Please enable Push Notification in settings for continue to login." = "Por favor, activa notificaciones push en los ajustes para seguir para iniciar sesión.";
+"Please give rating" = "Por favor calificación";
+"Payment Paid Successfully" = "El pago pagado con éxito";
+"Device has no camera" = "El dispositivo tiene cámara";
+"Please give authorization for photos in settings" = "Por favor, dar la autorización para las fotos en la configuración";
+"Contact was already added" = "El contacto ya fue agregado";
+
+
+
+///
+
+
+
+
+
+
+
+
+
+"km" = "Km";
+"Paid Amount" = "Monto de pago";
+"Password" = "Contraseña";
+"Please enter valid email id" = "Por favor, introduzca el ID de correo electrónico válida";
+"Please enter email id" = "Por favor, introduzca el ID de correo electrónico";
+"Minutes to arrive" = "Minutos en llegar";
+"Cancel reason" = "Cancelar la razón";
+"Additional topics" = "Otros temas";
+"Trips and Fare Review" = "Viajes y comidas opinión";
+"Account and Payment Options" = "Cuenta y Opciones de Pago";
+"A Guide to " = "Una guía para";
+"Signing Up" = "Registrando";
+"More" = "Más";
+"Accessibility" = "Accesibilidad";
+"Sending Alert" = "Envío de Alerta";
+"Alert Sent" = "Alerta enviados";
+"Continue to send alert?" = "Continuar para enviar alertas?";
+"Continue" = "Continuar";
+"Schedule" = "Programar";
+"Get moving with"  = "Ponte en movimiento con";
+"Emergency Contacts" = "Contactos de emergencia";
+"Drive with" = "Conducir con";
+"Please try again" = "Por favor intente de nuevo";
+"Upload failed. Please try again" = "Carga fallida Por favor intente de nuevo";
+
+"Please enter the card details" = "Por favor ingrese los detalles de la tarjeta";
+"Add Credit or Debit Card" = "Añadir tarjeta de crédito o débito";
+
+"Enter the amount" = "Introduce la cantidad";
+"ADD MONEY TO THE WALLET" = "AÑADIR DINERO A LA CARTERA";
+"CHANGE" = "CAMBIO";
+"ADD AMOUNT" = "AÑADIR CANTIDAD";
+"Type a message..." = "Escribe un mensaje ...";
+"No messages, yet." = "Aún no hay mensajes.";
+"Driver" = "Conductor";
+"Invalid data" = "Datos inválidos";
+
+"PEAK PRICE" = "PRECIO PEQUEÑO";
+"PEAK TIME PRICING" = "PRECIOS DE TIEMPO PICO";
+"Demand is off the charts! Fares have increased to get more UBER on the road." = "¡La demanda está fuera de las listas! Las tarifas han aumentado para obtener más UBER en la carretera.";
+"THE NORMAL FARE" = "LA TARIFA NORMAL";
+"MINIMUM FARE" = "TARIFA MÍNIMA";
+" / MIN" = " / MIN";
+" / KM" = " / KM";
+"I ACCEPT HIGHER FARE" = "Acepto la tarifa más alta";
+"I WILL TRY LATER" = "Intentaré más tarde";
+"Edit Credit or Debit Card" = "Editar tarjeta de crédito o débito";
+"Update Credit or Debit Card" = "Actualizar tarjeta de crédito o débito";
+"Change Credit or Debit Card" = "Cambiar tarjeta de crédito o débito";
+"SIGN IN" = "REGISTRARSE";
+"REGISTER" = "REGISTRO";
+
+"Register your information" = "Registra tu información";
+"Payable Amount" = "Cantidad a pagar";
+"Skip" = "Omitir";
+"Something went wrong!" = "¡Algo salió mal!";
+
+"Dial" = "Marcar";
+"Contact admin for manual booking" = "Póngase en contacto con admin para la reserva manual";
+"Contact admin" = "Contacto admin";
+"Call" = "Llamada";
+"No Contact Found" = "No se encontró contacto";
+"Manual Booking" = "Reserva manual";
+"Yes" = "Sí";
+"No" = "No";
+"OR" = "O";
+
+"Mobile Verification" = "Verificación móvil";
+"Please enter your mobile number" = "Por favor, introduzca su número de móvil";
+"LOGIN" = "INICIAR SESIÓN";
+"Enter OTP" = "Ingresar OTP";
+"We have sent you access code via SMS for mobile number verification" = "Le enviamos un código de acceso por SMS para la verificación del número de teléfono móvil";
+"Din't Receive the OTP?" = "¿No recibe la OTP?";
+"Resend OTP" = "Reenviar OTP";
+"You can send OTP again in" = "Puede enviar OTP nuevamente en";
+"Forgot Password?" = "¿Se te olvidó tu contraseña?";
+"Your OTP is" = "Tu OTP es";
+
+
+//referrals
+"Referral" = "Remisión";
+"Referral (Optional)" = "Referencia (opcional)";
+"Get upto" = "Llegar a";
+"for every friend who rides with" = "por cada amigo que viaja con";
+"SignUp & Get Paid For Every Referral Sign-up & Much More Bonus Awaits!" = "¡Regístrese y reciba el pago por cada referido de registro y mucho más bono aguarda!";
+"Referral Copied to Clip Board !" = "¡Referencia copiada al Portapapeles!";
+" Use my Referral " = "Use mi referencia";
+". Start Your Journey on NewTaxi from here " = ". Comience su viaje en NewTaxi desde aquí";
+"No Referrals Yet" = "Aún no hay referencias";
+"FRIENDS - INCOMPLETE" = "AMIGOS - INCOMPLETO";
+"FRIENDS - COMPLETED" = "AMIGOS - COMPLETADO";
+"days left | Need to Complete" = "quedan días | Necesito completar";
+"YOUR REFERRAL CODE" = "SU CÓDIGO DE REFERENCIA";
+"trips" = "excursiones";
+"Referral Expired" = "Referencia expirada";
+"SHARE MY CODE" = "COMPARTE MI CÓDIGO";
+
+"/min Waiting Fee applies after" = "/ Min de espera después de aplica una tarifa";
+"min of arrival till trip starts." = "min de llegada hasta que comience el viaje.";
+
+"Getting Cabs" = "Conseguir taxis";
+
+"Rate your ride" = "Califica tu viaje";
+"Smooth or Sloopy? Rate your ride" = "¿Suave o descuidado? Califica tu viaje";
+"write your comment" = "escribe tu comentario";
+"Add" = "Añadir";
+"Add Tip" = "Añadir consejo";
+"to Driver" = "al controlador";
+"SUBMIT" = "ENVIAR";
+"SET TIP" = "ESTABLECER CONSEJO";
+"Enter tip amount" = "Ingrese el monto de la propina";
+"Tip" = "Propina";
+"Pick and drop should be in same country..." = "Pick and drop debe estar en el mismo país ...";
+"Please enter valid card details" = "Por favor, introduzca los datos de la tarjeta válida";
+"Where to?"="¿A donde?";
+
+"Let's make travel safer"="viajes maquillaje Vamos más seguro";
+"Alert your dear ones in case of an emergency. Add them to your emergency contact"="Alertar a sus seres queridos en caso de una emergencia. Añadirlos a su contacto de emergencia";
+"You can add upto 5 contacts"="Puede agregar hasta 5 contactos";
+"Remove any contact to add another"="Eliminar cualquier contacto para agregar otra";
+"ADD CONTACTS"="AÑADIR CONTACTOS";
+"Emergency Contacts"="Contactos de emergencia";
+
+"First Name"="Primer nombre";
+"Last Name"="Apellido";
+"Phone Number"="Número de teléfono";
+"Email"="Email";
+"SAVE"="SALVAR";
+"Edit Account"="Editar cuenta";
+
+"Select a photo"="Seleccionar una foto";
+"TAKE PHOTO"="TOMAR FOTO";
+"CHOOSE FROM LIBRARY"="ELIGE DE LA BIBLIOTECA";
+"CANCEL"="CANCELAR";
+"You have no trips"="No tiene viajes";
+"Your Trips"="sus Viajes";
+"Past"="Pasado";
+"Upcoming"="próxima";
+"Trip Details"="Detalles del Viaje";
+"En Route"="En camino";
+"Contact"="Contacto";
+"Cancel"="Cancelar";
+"Your current trip"="Su viaje actual";
+"USE IN CASE OF EMERGENCY"="USO EN CASO DE EMERGENCIA";
+"Alert your Emergency contacts"="Alertar a sus contactos de emergencia";
+"NewTaxi collects location data during an active ride from your device including when the app is in the background. This data is used to ensure that NewTaxi users have a safe and smooth ride experiance"="NewTaxi recoge datos de localización durante un viaje en activo desde el dispositivo incluye, cuando la aplicación está en el fondo. Estos datos son utilizados para asegurar que los usuarios tienen una experiancia NewTaxi viaje seguro y sin problemas";
+"CLOSE"="CERRAR";
+"CALL"="LLAMADA";
+"MESSAGE"="MENSAJE";
+"Contacts"="contactos";
+
+"Cancel Your Ride"="Cancelar el transporte";
+"Cancel reason"="Cancelar razón";
+"CANCEL TRIP"="CANCELAR TRIP";
+"New Version Available" = "Nueva versión disponible";
+"Please update our app to enjoy the latest features! " = "Actualiza nuestra aplicación para disfrutar de las últimas funciones.";
+"Visit App store" = "Visite la tienda de aplicaciones";
+"day left | Need to Complete"="día a la izquierda | Necesidad de completar";
+"trip"="viaje";
+"Earned :"="ganado:";
+"Pay Statement"="Declaración de Pago";
+
+SIN_INCOMING_CALL = "Llamada entrante";
+SIN_INCOMING_CALL_DISPLAY_NAME = "Llamada entrante de %@";
+SIN_INCOMING_IM = "Mensaje entrante";
+SIN_INCOMING_IM_DISPLAY_NAME = "mensaje de entrada de% @";
+SIN_INCOMING_VIDEO_CALL = "videollamada entrante";
+SIN_INCOMING_VIDEO_CALL_DISPLAY_NAME = "Videollamada entrante de %@";
+SIN_CANCEL_CALL = "Llamada terminada";

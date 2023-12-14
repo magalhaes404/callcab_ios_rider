@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ClanPro-NarrNews.otf">
+            <string>ClanPro-NarrNews</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MobileNumberView" customModule="NewTaxi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="582" height="248"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN8-VK-Nh0">
+                    <rect key="frame" x="40" y="96.5" width="502" height="55"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ycv-5B-P4H">
+                            <rect key="frame" x="5" y="5" width="91.5" height="45"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="+1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXX-7g-8zI">
+                                    <rect key="frame" x="51.5" y="8" width="35" height="29"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="gbr-pY-o1I"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="ClanPro-NarrNews" family="Clan Pro" pointSize="19"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="us.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xd1-PC-HWd">
+                                    <rect key="frame" x="4" y="8" width="44" height="29"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="Xd1-PC-HWd" secondAttribute="height" multiplier="2:1.8" constant="11.777777777777779" id="P1D-zj-aA6"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="Xd1-PC-HWd" firstAttribute="top" secondItem="Ycv-5B-P4H" secondAttribute="top" constant="8" id="4cx-Fe-U4k"/>
+                                <constraint firstItem="Xd1-PC-HWd" firstAttribute="leading" secondItem="Ycv-5B-P4H" secondAttribute="leading" constant="4" id="EoJ-XC-7A9"/>
+                                <constraint firstAttribute="bottom" secondItem="Xd1-PC-HWd" secondAttribute="bottom" constant="8" id="ZCh-CP-Frp"/>
+                                <constraint firstItem="YXX-7g-8zI" firstAttribute="leading" secondItem="Xd1-PC-HWd" secondAttribute="trailing" constant="3.5" id="aZX-nA-wRn"/>
+                                <constraint firstAttribute="bottom" secondItem="YXX-7g-8zI" secondAttribute="bottom" constant="8" id="hpF-kM-uEF"/>
+                                <constraint firstItem="YXX-7g-8zI" firstAttribute="top" secondItem="Ycv-5B-P4H" secondAttribute="top" constant="8" id="puX-7Y-PL5"/>
+                                <constraint firstAttribute="trailing" secondItem="YXX-7g-8zI" secondAttribute="trailing" constant="5" id="sff-rJ-Og8"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3lH-Lu-Pvc">
+                            <rect key="frame" x="97" y="5" width="400" height="45"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="09123456789" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aep-yY-HqY">
+                                    <rect key="frame" x="8" y="8" width="382.5" height="29"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" name="ClanPro-NarrNews" family="Clan Pro" pointSize="19"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="ASCIICapableNumberPad" textContentType="tel"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="aep-yY-HqY" firstAttribute="leading" secondItem="3lH-Lu-Pvc" secondAttribute="leading" constant="8" id="OlY-l2-MMv"/>
+                                <constraint firstAttribute="bottom" secondItem="aep-yY-HqY" secondAttribute="bottom" constant="8" id="h4h-G7-1E6"/>
+                                <constraint firstAttribute="trailing" secondItem="aep-yY-HqY" secondAttribute="trailing" constant="9.5" id="q9m-nc-ZsO"/>
+                                <constraint firstItem="aep-yY-HqY" firstAttribute="top" secondItem="3lH-Lu-Pvc" secondAttribute="top" constant="8" id="u9A-RU-bOi"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="3lH-Lu-Pvc" firstAttribute="leading" secondItem="Ycv-5B-P4H" secondAttribute="trailing" constant="0.5" id="1cA-Ia-NBv"/>
+                        <constraint firstItem="Ycv-5B-P4H" firstAttribute="leading" secondItem="iN8-VK-Nh0" secondAttribute="leading" constant="5" id="1wM-iN-Dgl"/>
+                        <constraint firstAttribute="trailing" secondItem="3lH-Lu-Pvc" secondAttribute="trailing" constant="5" id="8tJ-my-ooF"/>
+                        <constraint firstItem="Ycv-5B-P4H" firstAttribute="top" secondItem="iN8-VK-Nh0" secondAttribute="top" constant="5" id="BVQ-Zg-w2v"/>
+                        <constraint firstItem="3lH-Lu-Pvc" firstAttribute="top" secondItem="iN8-VK-Nh0" secondAttribute="top" constant="5" id="CFF-6F-gaI"/>
+                        <constraint firstAttribute="height" constant="55" id="Lex-eF-Gh1"/>
+                        <constraint firstAttribute="bottom" secondItem="3lH-Lu-Pvc" secondAttribute="bottom" constant="5" id="aMG-FP-DwX"/>
+                        <constraint firstAttribute="bottom" secondItem="Ycv-5B-P4H" secondAttribute="bottom" constant="5" id="vWR-YU-Ped"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" name="Border"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="iN8-VK-Nh0" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="2Cg-Xy-FYX"/>
+                <constraint firstItem="iN8-VK-Nh0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="40" id="5cy-Uv-stO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="iN8-VK-Nh0" secondAttribute="trailing" constant="40" id="68J-SE-aOC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="countryHolderView" destination="Ycv-5B-P4H" id="Ocz-WR-L5J"/>
+                <outlet property="countryIV" destination="Xd1-PC-HWd" id="Z2H-Hh-aoQ"/>
+                <outlet property="countyCodeLbl" destination="YXX-7g-8zI" id="1M1-YQ-Yeq"/>
+                <outlet property="numberHolderView" destination="3lH-Lu-Pvc" id="6Uu-83-ot7"/>
+                <outlet property="numberTF" destination="aep-yY-HqY" id="4Kx-ct-4rI"/>
+            </connections>
+            <point key="canvasLocation" x="126.08695652173914" y="-123.21428571428571"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="us.png" width="36" height="36"/>
+        <namedColor name="Border">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
