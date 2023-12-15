@@ -1,7 +1,7 @@
 workflows:
  cache:
   cache_paths:
-     $HOME/Library/Caches/CocoaPods	
+     "$HOME/Library/Caches/CocoaPods"	
  ios-cache-pod-workflow:
     name: iOS Cache Workflow (With Pods)
     environment:
