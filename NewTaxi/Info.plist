@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-	<integer>8</integer>
+	<integer>12</integer>
 	<key>AccountKitClientToken</key>
 	<string>b3d6b246db287885b9e1f42db244dfb1</string>
 	<key>CFBundleDevelopmentRegion</key>
