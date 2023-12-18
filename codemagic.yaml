@@ -2,7 +2,7 @@ workflows:
   ios-cache-pod-workflow:
     name: iOS Cache Workflow (With Pods)
     environment:
-      xcode: latest # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
+      xcode:  14 # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
       cocoapods: default
       ios_signing:
         distribution_type: development # app_store| ad_hoc | development | enterprise
