@@ -5,7 +5,7 @@ workflows:
       xcode:  14 # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
       cocoapods: default
       ios_signing:
-        distribution_type: ad_hoc # app_store| ad_hoc | development | enterprise
+        distribution_type: development # app_store| ad_hoc | development | enterprise
         bundle_identifier: br.com.callcab.user.tax
       vars:
         BUNDLE_ID: "br.com.callcab.user.tax"
