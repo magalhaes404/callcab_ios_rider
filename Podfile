@@ -21,9 +21,7 @@ target 'NewTaxi' do
   pod 'GeoFire'
   pod 'Alamofire'
   pod 'TTTAttributedLabel'
-  
-  
-  pod 'SinchRTC', '~> 4.2.6'
+  pod 'SinchRTC'
   
   
   #pod 'Fabric'
