@@ -25,12 +25,12 @@ workflows:
         script: |
           gem install cocoapods-xcremotecache
           pod install
-      - name: Increment build number
-        script: |
+      #- name: Increment build number
+       # script: |
           #!/bin/sh
-          set -e
-          set -x
-          agvtool new-version -all $(($BUILD_NUMBER + 1))
+        #  set -e
+        #  set -x
+         # agvtool new-version -all $(($BUILD_NUMBER + 1))
       #- name: Build ipa for development
        # script: |
        #   xcodebuild build -workspace "$XCODE_WORKSPACE" -scheme "$XCODE_SCHEME" CODE_SIGN_INDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
