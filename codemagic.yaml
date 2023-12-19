@@ -1,46 +1,30 @@
+# Este arquivo define a configuração do seu projeto Codemagic
+# Para mais informações, consulte https://docs.codemagic.io/yaml/
+
+app_id: "com.example.myapp"
+app_version: 1.0.0
+app_name: "Meu App"
+
+# Configurações do projeto
+
 workflows:
-  ios-cache-pod-workflow:
-    name: iOS Cache Workflow (With Pods)
-    environment:
-      xcode:  14 # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
-      cocoapods: default
-      ios_signing:
-        distribution_type: ad_hoc # app_store| ad_hoc | development | enterprise
-        bundle_identifier: br.com.callcab.user.tax
-      vars:
-        BUNDLE_ID: "br.com.callcab.user.tax"
-        XCODE_WORKSPACE: "NewTaxi.xcworkspace"
-        XCODE_SCHEME: "NewTaxi"
-        XCODE_PROJECT: "NewTaxi.xcodeproj"
-        APP_STORE_APPLE_ID: 6474373220
-    triggering:
-      events:
-        - push
-      branch_patterns:
-        - pattern: "main"
-          include: true
-          source: true
-    scripts:
-      - name: Install coccoapods plugins
-        script: |
-          gem install cocoapods-xcremotecache
-          pod install
-      - name: Increment build number
-        script: |
-          #!/bin/sh
-          set -e
-          set -x
-          agvtool new-version -all $(($BUILD_NUMBER + 1))
-      #- name: Build ipa for development
-       # script: |
-       #   xcodebuild build -workspace "$XCODE_WORKSPACE" -scheme "$XCODE_SCHEME" CODE_SIGN_INDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
-      - name: Build ipa for distribution
-        script: | 
-          xcode-project build-ipa \
-            --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
-            --scheme "$XCODE_SCHEME"
-artifacts:
-  - build/ios/ipa/*.ipa
-  - /tmp/xcodebuild_logs/*.log
-  - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
-  - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+  # Este fluxo de trabalho é executado quando você envia seu código para o Codemagic
+  build:
+    # Configurações de assinatura
+    signing:
+      # Escolha "Sem assinatura" para gerar um .ipa sem assinatura
+      method: "none"
+    # Configurações do App Store Connect
+    app_store_connect:
+      # Desmarque esta opção para não enviar o .ipa para o App Store Connect
+      distribute: false
+
+# Conexão ao repositório
+
+repositories:
+  # O tipo de repositório que você está usando
+  type: "github"
+  # A URL do seu repositório
+  url: "https://github.com/[seu-usuário]/[seu-repositório]"
+  # O nome do branch que você deseja construir
+  branch: "master"
