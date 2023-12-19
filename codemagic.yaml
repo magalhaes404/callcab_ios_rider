@@ -1,13 +1,16 @@
 # Este arquivo define a configuração do seu projeto Codemagic
 # Para mais informações, consulte https://docs.codemagic.io/yaml/
 
-app_id: "com.example.myapp"
+app_id: "br.com.callcab.user.tax"
 app_version: 1.0.0
-app_name: "Meu App"
+app_name: "CallCab"
 
 # Configurações do projeto
 
 workflows:
+  environment:
+      xcode:  14 # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
+      cocoapods: default
   # Este fluxo de trabalho é executado quando você envia seu código para o Codemagic
   build:
     # Configurações de assinatura
@@ -18,13 +21,3 @@ workflows:
     app_store_connect:
       # Desmarque esta opção para não enviar o .ipa para o App Store Connect
       distribute: false
-
-# Conexão ao repositório
-
-repositories:
-  # O tipo de repositório que você está usando
-  type: "github"
-  # A URL do seu repositório
-  url: "https://github.com/[seu-usuário]/[seu-repositório]"
-  # O nome do branch que você deseja construir
-  branch: "master"
