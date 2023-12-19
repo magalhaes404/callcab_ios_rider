@@ -21,10 +21,10 @@ workflows:
           include: true
           source: true
     scripts:
-      - name: Install coccoapods plugins
-        script: |
-          gem install cocoapods-xcremotecache
-          pod install
+      #- name: Install coccoapods plugins
+      #  script: |
+      #    gem install cocoapods-xcremotecache
+       #   pod install
       #- name: Increment build number
        # script: |
           #!/bin/sh
